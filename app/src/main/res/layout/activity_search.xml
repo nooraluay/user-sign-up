@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+    <TextView
+        android:id="@+id/search_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:text="@string/yours_name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/search_id"
+        android:text=""
+        android:textSize="25sp"
+        android:background="@drawable/edittextbackground"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_id"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/white"
+        android:text="@string/search"
+        />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="388dp"
+        android:layout_height="193dp"
+        android:layout_below="@+id/search_button"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="start"
+        android:paddingRight="60dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="50dp"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPersonName"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/black"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sign up User</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="save">SAVE</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="view_data">view Data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data_view">Data view</string>
+    <string name="yours_name">Yours name:</string>
+    <string name="name">Name</string>
+    <string name="search">Search</string>
+    <string name="viewdatabase">viewDataBase</string>
+
+</resources>

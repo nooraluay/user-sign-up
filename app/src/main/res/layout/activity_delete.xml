@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+    <TextView
+        android:id="@+id/name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:text="User Name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/deleteuserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/name_id"
+        android:text=""
+        android:textSize="25sp"
+        android:background="@drawable/edittextbackground"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_id"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#F44336"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/delete_button"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#FF9800"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>
